@@ -1,0 +1,87 @@
+control statements:
+if statement
+if-else
+elif statement
+1)
+if condition:
+    st-1
+    st-2
+
+2)
+st3 #other statements
+if condition:
+    st-1
+else:
+    st-2
+3)
+if condition1:
+  st-1
+elif condition2:
+  st-2
+else:
+  st-3   
+
+
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+if(a>b):
+    print(a,"is biggerthan",b)
+else:
+    print(b,"is biggerthan",a)
+
+
+a=int(input("enter the number"))
+if(a%2==0):
+    print("even no")
+else:
+    print("odd no")
+
+a=int(input("enter the number"))
+if((a%2==0) and (a%3==0)):
+    print("it is multiple of 6")
+else:
+    print("not multiple of 6")
+
+a=input("enter the character")
+if(a=='a' or a=='e'or a=='i' or a=='o' or a=='u'):
+    print("it is vowel")
+else:
+    print("it is not vowel")
+
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+if(a>b and a>c):
+    print(" a is big")
+elif (b>c):
+    print("b is big")else:
+    print("c is big")
+    
+    
+
+a=int(input("enter the number"))
+if(a>0):
+    print("a is +ve no")
+    
+
+a=int(input("enter the number"))
+if(a>0):
+    print("a is +ve no")
+else:
+    print("a is -ve no")
+    
+
+a=int(input("enter the number"))
+if(a>0):
+    print("a is +ve no")
+elif(a<0):
+    print("a is -ve no")
+else:
+    print("a is 0")
+
+yr=int(input("enter the year"))
+if((yr%100!=0 and yr%4==0) or (yr%400==0)):
+    print("it is leap year")
+else:
+    print("it is not leap year")
+    

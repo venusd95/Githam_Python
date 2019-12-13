@@ -1,0 +1,194 @@
+print():
+is the output fn to print any type
+print("welcome to python")
+print("hello,everyone")
+print("venu")//every print by default will give new line
+print("dasari")
+to get both in single line
+we can write
+print("venu",end=" ")
+print("dasari")
+
+variable naming rules:
+starting char should be alphabet
+no special char except _
+never used variable name as a keyword
+to get all keywords here
+use
+help("keywords")
+
+every variable is object in python
+each object has 3 characters
+identifier
+type
+value
+variable assignment:
+a=10
+a=b=c=100
+a,b,c=10,20,30
+
+Number types:
+integers
+long
+float/real
+complex nos
+all numbers are immutable
+values are not modified.
+if they modified ,new reference is pointing to modified value.
+
+
+x=9 #int
+x=9l #longint
+x=09 #oct
+x=ox9 #hex
+x=1.25
+y=1.45E+23
+z=float(10)
+x=1+2j
+print(x.real)
+print(x.imag)
+print(x.conjugate())
+c = complex(3,4)
+print(c)
+
+c1 = 3+5j #complex
+c2 = 6+7j
+print(c1+c2)
+print(c1-c2)
+print(c1*c2)
+
+Fundamental Datatypes:
+int
+float
+complex
+Boolean
+String
+
+s1 = "abc"
+s2 = 'xyz'
+print(type(s1),type(s2))
+string:
+can represent in '' or " "
+a=100
+b=12.5
+c="hello"
+d='m'
+print(a,b,c,d)
+type():is a function to find type of
+variable.
+print(type(a),type(b),type(c),type(d))
+len():
+used to find the length of a string
+a=1234
+print(len(str(a)))
+str():used to convert int into string type
+like we use 
+int
+float
+str
+functions
+
+i = 100
+print(type(i))
+s1 = str(i) # str() converts the input into string type
+print(type(s1))
+f1 = float(i) # float() converts the input into float type
+print(type(f1))
+
+
+s1 = "100"
+print(type(s1))
+a = int(s1)
+print(type(a))
+f = 1.5
+a1 = int(f)
+print(type(a1))
+print(a1)
+reading input from keyboard:
+input():is the input fn to give input to program
+return type is string by default
+we can use type casting for input function.
+name=input("enter ur name")
+print("your name is",name)
+
+a=input("enter the number")
+print(a)
+print(type(a))
+print(type(int(a)))
+# singline comments
+/*  ...*/ multiline comments
+
+operators:
+arthmetic:
++,-,*,/ and %
+/--  decimal quetient
+% --modulus op
+// floor divison
+**
+2**3=8 if exponent is int we used ** 
+pow(2,3.5)=
+#Arithmetic operators
+n1 = 12
+n2 = 23
+print(n1+n2)
+print(n1-n2)
+print(n1*n2)
+print(n1/n2)
+print(n1%n2)
+print(n1//n2)
+print(n1**n2)
+
+
+
+
+
+relational:
+<,<=,>,>=,==,!=
+
+#Relational operators
+print(x == y)
+print(x != y)
+print(x<y)
+print(x>y)
+
+
+a=10
+print(a>15)
+False
+
+logical ops:
+and or not
+#Logical operators
+x = 20
+y = 30
+print(x>=10 and x<=20)
+print(x>=10 or x<=20)
+print(not x)
+
+membership ops:
+in not in
+#Membership operators
+str1 = "abc"
+print('a' in str1)
+print('a' not in str1)
+
+identity ops:
+identity  is isnot
+a=10
+b=20
+print(a is b)
+
+ bitwise ops:
+ & | << >> ~
+
+special ops:
++ & , are concatenation
+* repetetion
+repetion op:
+s1="venu"
+print(s1 *5)
+[] slice operator
+[start:stop:step]
+range(start, stop, stepsize)
+indentation:
+to indicate a block of code
